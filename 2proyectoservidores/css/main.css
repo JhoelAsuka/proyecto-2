@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+body{
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18PX;
+    font-weight: bold;
+    color: rgb(66, 5, 5);
+}
+
+#menu form > button{
+    font-size: 18PX;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+@media (max-width: 768px){
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align:center ;
+    }
+}
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#bg-contacto{
+    position: relative;
+    top: 130;
+
+}
+#seccion-contacto{
+    background-color: rgb(247, 242, 242);
+    min-height: 500;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(167, 159, 170);
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: rgb(104, 6, 231);
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: rgb(0, 110, 255);
+}
